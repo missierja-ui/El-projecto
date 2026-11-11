@@ -1,0 +1,44 @@
+img {
+	width: 300px;
+	height: 250px;
+	border-radius: 25px;
+}
+
+h1 {
+	animation: slideUpAnimation 5s ease infinite
+}
+
+body {
+text-align:center;
+font-family:cursive;
+font-size: 25px;
+background-color: blue;
+color: red;
+}
+@keyframes slideUpAnimation {
+  0% { transform: translateY(100px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.element {
+  animation-name: slideUpAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+hr{
+	border: none;
+	border-top: 10px dashed cyan;
+}
+
+.topimage{
+	border: 4px solid red;
+
+}
+
+.website{
+	border: 10px solid red;
+	height: 300px; width: 500px;
+}
